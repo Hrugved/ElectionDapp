@@ -1,0 +1,15 @@
+
+* metamask secret:
+elephant dignity barely dry cable enact basic pudding mixed clerk race casual
+
+# Dapp -> instead of traditional way of writing a server-side code and hosting the api in a centralized server, in Dapps the backend is actual ethereum wherin our code(smart contracts) are written to interact with it. This SC(code) are run on nodes of the etheruem network and hence cost gas.
+
+# metamask is plugin which enables browser to connect to blockchain network(local or real). It also provides Web3 instance to connect to in our client-side code.
+# ganache is local fake etheruem blockchain running.
+# 'truffle migrate' to deploy our code. During deploying all migrations are runned, each changes the state our our contract. 
+# code deployed on ethereum is immutable, so to once again deploy the code on ethereum we have to run all migrations from start => 
+'truffle migrate --reset'.
+# deploying takes gas.
+
+# truffle comes bundled with mocha and chai for testing
+
